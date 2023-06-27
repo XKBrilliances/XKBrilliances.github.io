@@ -1,0 +1,1 @@
+var posts=["/post/hello-world.html","/post/Bandai Namco Launcher.html","/post/post.html"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};

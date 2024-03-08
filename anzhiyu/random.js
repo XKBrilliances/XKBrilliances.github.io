@@ -1,1 +1,1 @@
-var posts=["/post/Bandai Namco Launcher.html","/post/post.html","/post/hello-world.html"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
+var posts=["/post/Bandai Namco Launcher.html","/post/post.html","/post/hello-world.html","/post/EVE-Amarr.html","/post/Bandai Namco Launcher technology.html","/post/EVE-Common-websites.html"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};

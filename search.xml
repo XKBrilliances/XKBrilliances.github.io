@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>world.execute(me);</title>
+      <link href="//post/world.execute(me);.html"/>
+      <url>//post/world.execute(me);.html</url>
+      
+        <content type="html"><![CDATA[<p>package goddrinksjava;<br>&#x2F;*</p><ul><li><p>The program GodDrinksJava implements an application that</p></li><li><p>creates an empty simulated world with no meaning or purpose.</p></li><li></li><li><p>@author momocashew<br> *&#x2F;<br>public class GodDrinksJava {<br>  public static void main(String[] args) {<br> Thing me &#x3D; new Lovable(“Me”, 0, true, -1 false);<br> Thing you &#x3D; new Lovable(“You”, 0, true, -1 false);</p><p> World world &#x3D; new World(5);<br> world.addThing(me);<br> world.addThing(you);<br> world.startSimulation();</p><p> &#x2F;</p><p> if(me instanceof PointSet){<br>   you.addAttribute(me.getDimensions().toAttribute());<br>   me.resetDimensions();<br> }<br> if(me instanceof Circle){<br>   you.addAttribute(me.getCircumference().toAttribute());<br>   me.resetCircumference();<br> }<br> if(me instanceof SineWave){<br>   you.addAction(“sit”, me.getTangent(you.getXPosition()));<br> }<br> if(me instanceof Sequence){<br>   me.setLimit(you.toLimit());<br> }</p><p> &#x2F;</p><p> me.toggleCurrent();<br> me.canSee(false);<br> me.addFeeling(“dizzy”);<br> world.timeTravelForTwo(“AD”, 617, me, you);<br> world.timeTravelForTwo(“BC”, 3691, me, you);<br> world.unite(me, you);</p><p> &#x2F;</p><p> if(me.getNumStimulationsAvailable() &gt;&#x3D;<br> you.getNumStimulationsNeeded()){<br>   you.setSatisfaction(me.toSatisfaction());<br> }<br> if(you.getFeelingIndex(“happy”) !&#x3D; -1){<br>   me.requestExecution(world);<br> }<br> world.lockThing(me);<br> world.lockThing(you);</p><p> &#x2F;</p><p> if(me instanceof Eggplant){<br>   you.addAttribute(me.getNutrients().toAttribute());<br>   me.resetNutrients();<br> }<br> if(me instanceof Tomato){<br>   you.addAttribute(me.getAntoxidants().toAttribute());<br>   me.resetAntoxidants();<br> }<br> if(me instanceof TabbyCat){<br>   me.purr();<br> }<br> if(world.getGod().equals(me)){<br>   me.setProof(you.toProof());<br> }</p><p> &#x2F;</p><p> me.toggleGender();<br> world.procreate(me, you);<br> me.toggleRoleBDSM();<br> world.makeHigh(me);<br> world.makeHigh(you);</p><p> &#x2F;</p><p> if(me.getSenseIndex(“vibration”)){<br>   me.addFeeling(“complete”);<br> }<br> world.unlock(you);<br> world.removeThing(you);<br> me.lookFor(you, world);<br> me.lookFor(you, world);<br> me.lookFor(you, world);<br> me.lookFor(you, world);<br> me.lookFor(you, world);<br> if(me.getMemory().isErasable()){<br>   me.removeFeeling(“disheartened”);<br> }<br> try{<br>   me.setOpinion(me.getOpinionIndex(“you are here”), false);<br> }<br> catch(IllegalArgumentException e){<br>   world.announce(“God is always true.”);<br> }</p><p> &#x2F;</p><p> world.runExecution();<br> world.runExecution();<br> world.runExecution();<br> world.runExecution();<br> world.runExecution();<br> world.runExecution();<br> world.runExecution();<br> world.runExecution();<br> world.runExecution();<br> world.runExecution();<br> world.runExecution();<br> world.runExecution();<br> world.announce(“1”,”de”);<br> world.announce(“2”,”es”);<br> world.announce(“3”,”fr”);<br> world.announce(“4”,”kr”);<br> world.announce(“5”,”se”);<br> world.announce(“6”,”cn”);<br> world.runExecution();</p><p> &#x2F;</p><p> if(world.isExecutableBy(me)){<br>   you.setExecution(me.toExecution());<br> }<br> if(world.getThihngIndex(you) !&#x3D; -1){<br>   world.runExecution();<br> }<br> me.escape(world);</p><p> &#x2F;</p><p> me.learnTopic(“love”);<br> me.takeExamTopie(“love”);<br> me.getAlgebraicExpression(“love”);<br> me.escape(“love”);</p><p> &#x2F;</p><p> world.execute(me);</p></li></ul><p>  }<br>}</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 代码 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>EVE种族——盖伦特联邦</title>
       <link href="//post/EVE-Gallente.html"/>
       <url>//post/EVE-Gallente.html</url>

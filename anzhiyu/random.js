@@ -1,1 +1,3 @@
-var posts=["/post/Bandai Namco Launcher.html","/post/post.html","/post/hello-world.html","/post/EVE-Amarr.html","/post/Bandai Namco Launcher technology.html","/post/EVE-Common-websites.html","/post/EVE-Calderi.html","/post/EVE-Gallente.html","/post/EVE-Minmater.html","/post/world.execute(me);.html"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
+var posts=["/post/EVE-Minmater.html","/post/hello-world.html","/post/post.html","/post/world.execute(me);.html","/post/Bandai Namco Launcher.html","/post/Bandai Namco Launcher technology.html","/post/EVE-Amarr.html","/post/EVE-Common-websites.html","/post/EVE-Gallente.html","/post/EVE-Calderi.html","/post/Deep space exploration College.html"];function toRandomPost(){
+    pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
+  };
